@@ -22,8 +22,8 @@
         app:layout_constraintVertical_bias="0.223"
         app:srcCompat="@drawable/komodo" />
 
-    <TextView
-        android:id="@+id/editText"
+    <EditText
+        android:id="@+id/edEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -32,7 +32,7 @@
         android:layout_marginRight="16dp"
         android:background="#ffffff"
         android:ems="10"
-        android:hint="@string/tEmail"
+        android:hint="@string/eEmail"
         android:padding="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,8 +41,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.392" />
 
-    <TextView
-        android:id="@+id/editText2"
+    <EditText
+        android:id="@+id/edPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -51,7 +51,7 @@
         android:layout_marginRight="16dp"
         android:background="#ffffff"
         android:ems="10"
-        android:hint="@string/tPassword"
+        android:hint="@string/ePassword"
         android:padding="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -61,7 +61,7 @@
         app:layout_constraintVertical_bias="0.446" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btSignIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -71,7 +71,7 @@
         android:background="#00773F"
         android:paddingLeft="30dp"
         android:paddingRight="30dp"
-        android:text="@string/bsignin"
+        android:text="@string/btSignIn"
         android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
